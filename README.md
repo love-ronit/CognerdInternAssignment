@@ -8,17 +8,27 @@ To run the project, set up a Python virtual environment and install the dependen
 
 ```bash
 python -m venv venv
+```
+```bash
 # On Windows:
-venv\Scripts\activate
+.\venv\Scripts\Activate
+```
+```bash
 # On Linux/macOS:
 source venv/bin/activate
-
+```
+```bash
 pip install -r requirements.txt
 ```
 
 Generate the model file before starting the API:
 ```bash
 python train_model.py
+```
+
+Execution Policy
+```bash
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 ```
 
 ## 2. How to start the API
